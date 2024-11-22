@@ -40,7 +40,7 @@ def send_whatsapp_message(phone_number, name):
     # The command 'am start' will open the URL within the app
     command = f"am start -a android.intent.action.VIEW -d '{url}'"
     os.system(command)
-    print(f"Sent message to {name} ({phone_number}) with vehicle {vehicle_number} and file via WhatsApp")
+    print(f"Sent message to {name} ({phone_number}) with vehicle {name} and file via WhatsApp")
 
 # Infinite loop to send messages to all contacts
 while True:
